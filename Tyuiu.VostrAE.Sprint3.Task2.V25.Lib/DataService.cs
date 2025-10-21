@@ -6,11 +6,13 @@ namespace Tyuiu.VostrAE.Sprint3.Task2.V25.Lib
         public double GetSumSeries(int value, int startValue, int stopValue)
         {
             double sumSeries = 0;
+            startValue = 1;
             do
             {
-                sumSeries = sumSeries + Math.Pow((4/Math.Pow(startValue,value)),2);
+                
+                sumSeries = sumSeries + Math.Pow(4/Math.Pow(startValue,value),2);
                 startValue++;
-                }while (sumSeries <= stopValue); 
+                }while (startValue <= stopValue); 
                 return Math.Round(sumSeries,3);
         }
     }

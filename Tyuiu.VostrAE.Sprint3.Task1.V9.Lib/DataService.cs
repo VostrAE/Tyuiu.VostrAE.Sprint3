@@ -8,7 +8,7 @@ namespace Tyuiu.VostrAE.Sprint3.Task1.V9.Lib
             double MultiplySeries = 1;
             while (startValue <= stopValue)
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(300 / (Math.Cos(value) + Math.Pow(value, MultiplySeries)), MultiplySeries));
+                MultiplySeries = MultiplySeries* Math.Pow(300 / (Math.Cos(value)+Math.Pow(value, startValue)), startValue);
                 startValue++;
             }
             return Math.Round(MultiplySeries, 3);

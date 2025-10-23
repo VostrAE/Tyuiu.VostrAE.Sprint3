@@ -11,7 +11,7 @@ namespace Tyuiu.VostrAE.Sprint3.Task4.V3.Test
             int startValue = -5;
             int stopValue = 5;
             double res = ds.Calculate(startValue, stopValue);
-            double wait = -0.274;
+            double wait = 1.067;
             Assert.AreEqual(res, wait);
 
         }

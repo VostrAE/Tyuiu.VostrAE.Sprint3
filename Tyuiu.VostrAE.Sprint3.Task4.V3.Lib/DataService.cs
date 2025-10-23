@@ -14,7 +14,7 @@ namespace Tyuiu.VostrAE.Sprint3.Task4.V3.Lib
                 }
                 else
                 {
-                    res = res + (Math.Cos(x)+ Math.Sin(x) / x);
+                    res = res + ((Math.Cos(x)+ Math.Sin(x)) / x);
                 }
 
             }

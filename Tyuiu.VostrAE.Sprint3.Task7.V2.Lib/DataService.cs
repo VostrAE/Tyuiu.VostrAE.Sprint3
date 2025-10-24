@@ -12,11 +12,10 @@ namespace Tyuiu.VostrAE.Sprint3.Task7.V2.Lib
             double y;
             int count = 0;
             for (int x = startValue; x <= stopValue; x++) {
-                if (x==0.7) { valueArray[count] = 0;}
-                else
                 {
                     y = Math.Round(((Math.Cos(x) / (x - 0.7)) - Math.Sin(x) * 12 * x + 2), 2);
                     valueArray[count] = y;
+                    if (x == 0.7) { valueArray[count] = 0; }
                     count++;
                 }
                 

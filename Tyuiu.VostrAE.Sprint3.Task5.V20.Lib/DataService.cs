@@ -9,7 +9,7 @@ namespace Tyuiu.VostrAE.Sprint3.Task5.V20.Lib
             int i, k;
             for (i = startValue1; i <= stopValue1; i++) {
                 for (k = startValue2; k <= stopValue2; k++) {
-                    SumSumSeries = SumSumSeries + Math.Pow((x/Math.Sin(x)), startValue2);
+                    SumSumSeries = SumSumSeries + Math.Pow(x/Math.Sin(x), k);
                 }
             }
             return Math.Round(SumSumSeries,3);

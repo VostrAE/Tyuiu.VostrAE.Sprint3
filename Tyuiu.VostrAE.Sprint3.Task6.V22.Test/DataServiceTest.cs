@@ -11,7 +11,7 @@ namespace Tyuiu.VostrAE.Sprint3.Task6.V22.Test
             int startValue = 19;
             int stopValue = 31;
             int res = ds.GetSumTheDivisors(startValue, stopValue);
-            int wait = 517;
+            int wait = 55;
             Assert.AreEqual(wait, res);
         }
     }

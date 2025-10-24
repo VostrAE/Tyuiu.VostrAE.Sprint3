@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Конец шага = " + endValue);
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Разультат:                                                              *");
+        Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Cумма ряда = " + ds.GetSumSeries(startValue, endValue));
         Console.ReadKey();

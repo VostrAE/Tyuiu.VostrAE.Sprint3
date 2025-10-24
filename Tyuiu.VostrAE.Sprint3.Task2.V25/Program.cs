@@ -15,7 +15,7 @@ class Program
         Console.WriteLine("Конец шага = " + endValue);
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Разультат:                                                              *");
+        Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(value, startValue, endValue));
         Console.ReadKey();

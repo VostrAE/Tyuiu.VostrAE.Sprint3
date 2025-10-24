@@ -16,7 +16,7 @@ class Program
 
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Разультат:                                                              *");
+        Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Измененная строка: " + ds.ReplaceCharInString(value, replaceable, replacement));
         Console.ReadKey();

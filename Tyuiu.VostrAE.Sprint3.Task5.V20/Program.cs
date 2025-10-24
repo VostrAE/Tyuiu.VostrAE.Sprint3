@@ -23,7 +23,7 @@ class Program
 
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Разультат:                                                              *");
+        Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Сумма ряда: " + ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2));
         Console.ReadKey();

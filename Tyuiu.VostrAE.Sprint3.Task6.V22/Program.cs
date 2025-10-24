@@ -13,7 +13,7 @@ class Program
         Console.WriteLine("Конец шага суммы ряда: " + stopValue);
 
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* Разультат:                                                              *");
+        Console.WriteLine("* Результат:                                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("Сумма делителей: " + ds.GetSumTheDivisors(startValue, stopValue));
         Console.ReadKey();
